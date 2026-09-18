@@ -1,0 +1,25 @@
+# Rust build artifacts
+/target/
+
+# Generated Cargo files
+# Cargo.lock is typically committed for binaries, but if desired can be excluded.
+# For binaries it is recommended to commit Cargo.lock, so we keep it tracked.
+
+# Backup and temp files
+**/*.rs.bk
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE and Editor configurations
+.idea/
+.vscode/
+*.iml
+
+# Logs and packet capture dumps
+*.log
+*.pcap
